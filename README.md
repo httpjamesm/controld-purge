@@ -20,8 +20,21 @@ cp .env.example .env
 
 2. Fill out `.env` with your variables. 
 
+Check the "Getting API Details" section for help getting the `CONTROLD_AUTHORIZATION` variable.
+
 3. Run
 
 ```bash
 node index.js
 ```
+
+## Getting API Details
+
+1. Visit the [ControlD Dashboard](https://controld.com/control-panel/filters) while logged in.
+2. Open Dev Tools and head to the network tab with `CTRL`+`SHIFT`+`I`.
+3. Reload page if needed.
+4. Click on a request, such as `proxies`.
+5. Open the request and check the "Request Headers" section for your `authorization` header value.
+
+This value should look similar to:
+`letter.integerletter.unix_timestamp.integer.very_long_hex_string`
