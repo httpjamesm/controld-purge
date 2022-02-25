@@ -1,6 +1,6 @@
 # controld-purge
 
-This is a script that I made to auto-remove all IPs associated with my ControlD account that are not from my home ISP. Sometimes I manage ControlD from a VPN, but don't mean to add the IP address to the authorized IPs list. This script goes through all ControlD IPs using the API and deletes any IPs that are not categorized as your whitelisted ISP name.
+This is a script that I made to auto-remove all IPs associated with my [ControlD](https://controld.com) account that are not from my home ISP. Sometimes I manage ControlD from a VPN, but don't mean to add the IP address to the authorized IPs list. This script goes through all ControlD IPs using the API and deletes any IPs that are not categorized as your whitelisted ISP name.
  
 ## Installing
 
